@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warna Random</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="py-5 shadow-xl bg-white">
+        <div class="flex justify-around">
+            <div class="item-kiri font-bold text-xl text-[#e63946]">Color Flipper</div>
+            <div class="flex font-bold text-base">
+                <h1>Merubah Warna Secara Random</h1>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN -->
+    <main id="content">
+        <div class="container mx-auto h-[80vh]">
+            <div class="flex justify-center items-center h-[100%]  flex-col">
+                <div class="bg-black text-white shadow-2xl md:py-5 md:px-16 rounded-md flex py-2 px-3">
+                    <h1 class="md:text-3xl font-bold mr-5">BACKGROUND COLOR : </h1>
+                    <h1 class="md:text-3xl font-bold" id="namaWarna"></h1>
+                </div>
+                <button
+                    class="font-bold mt-10 border-[2px] py-3 px-10 hover:bg-black hover:text-white rounded-2xl      border-black shadow-xl cursor-pointer"
+                    id="button">
+                    Click
+                    Me</button>
+
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
